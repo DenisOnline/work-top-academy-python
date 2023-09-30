@@ -1,5 +1,4 @@
 # t.me/it_step_shulzhenko_bot
-# 6455141722:AAFsV8c2zVuKAs-_jf5SWJwOHjNmxxct8UI
 
 from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler, filters
 from telegram import Update
@@ -21,3 +20,5 @@ def main():
     updater.start_polling()
     updater.idle()
     main()
+
+
